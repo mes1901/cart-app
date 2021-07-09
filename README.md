@@ -1,6 +1,6 @@
 # Installation
 
-##Backend
+## Backend
 - cd backend
 - cp .env.example .env
 - set DB connection to env file
@@ -11,7 +11,7 @@
 - php artisan migrate --seed
 - php artisan serve
 
-##Frontend
+## Frontend
 
 - cd frontend
 - cp .env.example .env
