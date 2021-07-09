@@ -1,7 +1,7 @@
 import requestService from '../services/requestService'
 import config from '../config';
 
-const resourceUrl = config.getApiUrl()
+const resourceUrl = config.getApiUrl() + '/api'
 
 export default {
     fetchProductsList: (context) => {
